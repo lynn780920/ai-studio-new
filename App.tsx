@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { User, UserRole, TrackingRow, ERPRawRow, UserRoleRow } from './types';
-import { sheetService } from './services/sheetService';
+import { sheetService } from './services/sheetService.ts'; // <-- 加上 .ts
 
 // Icons
 import { 
