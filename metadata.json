@@ -1,0 +1,5 @@
+{
+  "name": "Lynn-生產排程",
+  "description": "基於 Google Sheets 的生產排程系統，具備針對採購與排程人員的角色權限控制。",
+  "requestFramePermissions": []
+}
