@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { User, UserRole, TrackingRow, ERPRawRow, UserRoleRow } from './types';
-import { sheetService } from './services/sheetService.tsx'; // <-- 注意：services 變回小寫，副檔名改為 .tsx
-
+import { sheetService } from './services/sheetService.ts'; // <-- 確定 services 小寫, 副檔名為 .ts
 // Icons
 import { 
   Search, FileSpreadsheet, LogOut, User as UserIcon, 
