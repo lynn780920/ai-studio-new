@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { User, UserRole, TrackingRow, ERPRawRow, UserRoleRow } from './types';
-import { sheetService } from './services/SheetService.ts'; // <-- 確保 S 大寫
+import { sheetService } from './services/SheetService'; // <-- 移除 .ts 副檔名
 import { 
   Search, FileSpreadsheet, LogOut, User as UserIcon, 
   UploadCloud, AlertCircle, CheckCircle, RefreshCw, ChevronDown, ChevronRight, Layers, 
